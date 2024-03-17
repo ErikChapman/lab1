@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.note-input-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.note-input {
+    flex: 1;
+    resize: none;
+    height: 100%;
+}
